@@ -53,3 +53,4 @@ xacro <name>.urdf.xacro > robot.urdf
 
 
 - [Calibration](./notebooks/Calibration.ipynb) is used to align vicon mocap data with FK data using procrustes analysis, for ground truth comparison and evaluation.
+- [Forward kinematics example](./notebooks/Robot_kinematics.ipynb) gives an example of using hrl_kdl for forward kinematics.
