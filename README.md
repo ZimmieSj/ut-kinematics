@@ -10,6 +10,7 @@ Probabilistic forward kinematics using the unscented transform, with vision-base
 
 ```
 git clone https://github.com/mgb45/ut-kinematics.git
+cd ut-kinematics
 git submodule update --init --recursive
 catkin_make
 source devel/setup.bash
@@ -21,6 +22,7 @@ jupyter notebook
 - Check out repository and submodules
 ```
 git clone https://github.com/mgb45/ut-kinematics.git
+cd ut-kinematics
 git submodule update --init --recursive
 ```
 - Build docker image
